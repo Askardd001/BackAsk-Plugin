@@ -10,6 +10,12 @@
 
 A modern inventory management plugin built for Minecraft servers, providing a complete backpack ecosystem with virtual storage, advanced search, favorites, workstations and fully customizable interfaces.
 
+<p>
+<a href="https://github.com/Askardd001">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=By+Askardd;Java;Minecraft+Plugin;V2.0.0"/>
+</a>
+</p>
+
 <br>
 
 <img src="https://img.shields.io/github/v/release/Askardd001/BackAsk-Plugin?style=for-the-badge">
@@ -250,3 +256,193 @@ Supports versions **1.21 up to 26.2** (including 1.21.x, 1.22, 1.23, 1.24, 1.25,
 Download the latest release from the Releases page.
 ```text
 BackAsk-x.x.x.jar
+
+## 2. Stop the Server
+
+Always stop your server before installing or updating plugins.
+
+---
+
+## 3. Install
+
+Move the JAR file into your server's `plugins` directory.
+
+```text
+server/
+└── plugins/
+    └── BackAsk.jar
+```
+
+---
+
+## 4. Start the Server
+
+Start the server normally.
+
+BackAsk will automatically generate its folders and configuration files.
+
+---
+
+# Configuration
+
+All plugin files are generated automatically after the first startup inside:
+
+```text
+plugins/
+└── BackAsk/
+    ├── config.yml          # Main plugin settings
+    ├── storage.yml         # Storage & data retention options
+    ├── language.yml        # Active language configuration
+    ├── menus.yml           # Custom GUI layouts and titles
+    ├── sounds.yml          # Custom sound effects
+    ├── lang/
+    │   ├── en_us.yml
+    │   ├── es_es.yml
+    │   └── pt_br.yml
+    └── data/
+```
+
+No recompilation is required after changing the configuration.
+
+Most settings can be reloaded instantly in-game.
+
+---
+
+# Commands
+
+| Command | Description |
+|---------|-------------|
+| `/backpack` | Opens the main BackAsk menu |
+| `/backpack reload` | Reloads all plugin configuration files |
+| `/bp` | Opens the Backpack interface |
+| `/bau` | Opens the Virtual Backpack |
+| `/enderchest` | Opens the Virtual Ender Chest |
+| `/lixeira` | Opens the Trash system |
+| `/mesa` | Opens the Virtual Crafting Table |
+| `/bigorna` | Opens the Virtual Anvil |
+| `/encantamentos` | Opens the Virtual Enchanting Table |
+| `/rebolo` | Opens the Grindstone |
+| `/talhar` | Opens the Smithing Table |
+| `/cartografia` | Opens the Cartography Table |
+| `/ferraria` | Opens the Smithing Table |
+| `/tear` | Opens the Loom |
+
+---
+
+# Permissions
+
+BackAsk includes a flexible permission system for controlling access to features, backpack sizes, and administrative commands.
+
+For the complete list of permission nodes, see:
+
+```text
+PERMISSIONS.md
+```
+
+---
+
+# PlaceholderAPI
+
+BackAsk automatically supports PlaceholderAPI when it is installed.
+
+Example placeholders:
+
+```text
+%backask_backpack_size%
+%backask_backpack_slots%
+%backask_storage_items%
+%backask_trash_items%
+```
+
+---
+
+# Frequently Asked Questions
+
+### Does BackAsk replace vanilla inventories?
+
+No.
+
+Everything is virtual, independent, and secure.
+
+### Is PlaceholderAPI required?
+
+No.
+
+PlaceholderAPI support is completely optional.
+
+### Can I customize every menu?
+
+Yes.
+
+Every inventory layout, title, icon, and decoration can be customized in `menus.yml`.
+
+### Does it support custom textures?
+
+Yes.
+
+BackAsk fully supports custom GUI icons and resource-pack based textures, including the exclusive DevTools icon set bundled with the plugin.
+
+---
+
+# Roadmap
+
+Current goals for future versions:
+
+- More PlaceholderAPI expansions
+- Additional developer hooks
+- More backpack upgrades
+- New virtual utilities
+- Advanced GUI animations
+- Expanded language support
+- Improved public API documentation
+
+---
+
+# API
+
+BackAsk provides a public API for developers.
+
+```java
+BackAskAPI api = BackAskAPI.get();
+
+api.openBackpack(player);
+api.openTrash(player);
+api.openStorage(player);
+```
+
+More examples and documentation are available in:
+
+```text
+API.md
+```
+
+---
+
+# License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, fork, and distribute this project provided the original license is included.
+
+See:
+
+```text
+LICENSE
+```
+
+---
+
+# Credits
+
+Developed and maintained by **BPA**.
+
+BackAsk makes use of the following open-source projects:
+
+- PaperMC
+- PlaceholderAPI
+
+### Custom Assets
+
+The DevTools icon set included with BackAsk was custom designed exclusively for this project and is not part of Minecraft or any third-party resource pack.
+
+Special thanks to the Minecraft server development community for their continuous contributions.
