@@ -1,2 +1,5 @@
-# BackAsk-Plugin
-Advanced backpack system for PaperMC servers.
+<div align="center">
+
+<img src="assets/banner.png" width="100%" alt="BackAsk Banner"/>
+
+<br><br>
