@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://i.ibb.co/n8wHMpgp/temp-178345260825717721705336527395364.png" width="100%" alt="BackAsk Banner"/>
+<img src="https://cdn.discordapp.com/attachments/1503890704043348098/1524135852140134460/banner-removebg-preview.png?ex=6a4ea5a0&is=6a4d5420&hm=b3dadd4ad966e8d5f4233ba7e2fb436c84728ace8c1da1e615ce6ecee238926b&" width="100%" alt="BackAsk Banner"/>
 
 <br><br>
 
