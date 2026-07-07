@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://imgur.com/a/idJiXwU" width="100%" alt="BackAsk Banner"/>
+<img src="https://i.ibb.co/n8wHMpgp/temp-178345260825717721705336527395364.png" width="100%" alt="BackAsk Banner"/>
 
 <br><br>
 
@@ -38,7 +38,8 @@ A modern inventory management plugin built for Minecraft servers, providing a co
 
 ---
 
-<a id="overview"></a>
+<div id="overview"></div>
+
 # <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="24" height="24"/> Overview
 
 **BackAsk** is a complete backpack solution designed for modern Minecraft servers.
@@ -51,11 +52,7 @@ The plugin focuses on reducing inventory clutter while giving players instant ac
 
 ---
 
-<div align="center">
-
 ## Architecture
-
-</div>
 
 | Component | Description |
 |------------|-------------|
@@ -70,8 +67,9 @@ The plugin focuses on reducing inventory clutter while giving players instant ac
 
 ---
 
-<a id="highlights"></a>
-# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg" width="24" height="24"/> Highlights
+<div id="highlights"></div>
+
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="24" height="24"/> Highlights
 
 <table>
 <tr>
@@ -106,11 +104,7 @@ Runs without unnecessary dependencies while maintaining low memory usage. Compat
 
 ---
 
-<div align="center">
-
 ## Plugin Philosophy
-
-</div>
 
 BackAsk follows four main design principles:
 
@@ -123,11 +117,7 @@ BackAsk follows four main design principles:
 
 ---
 
-<div align="center">
-
 ## Key Advantages
-
-</div>
 
 <table>
 <tr>
@@ -160,112 +150,103 @@ BackAsk follows four main design principles:
 
 ---
 
-<div align="center">
-
 ## Designed For
-
-</div>
 
 | Server Type | Recommended |
 |--------------|:-----------:|
 | Survival | ✔ |
 | SMP | ✔ |
-| Economy | ✔[cite: 1] |
-| RPG | ✔[cite: 1] |
-| SkyBlock | ✔[cite: 1] |
-| Prison | ✔[cite: 1] |
-| Lifesteal | ✔[cite: 1] |
-| Network Servers | ✔[cite: 1] |
+| Economy | ✔ |
+| RPG | ✔ |
+| SkyBlock | ✔ |
+| Prison | ✔ |
+| Lifesteal | ✔ |
+| Network Servers | ✔ |
 
 ---
-
-<div align="center">
 
 ## Technology Stack
 
-</div>
-
 | Technology | Purpose |
 |------------|---------|
-| **Java 21** | Core language[cite: 1] |
-| **Gradle** | Build system[cite: 1] |
-| **Paper API** | Primary platform[cite: 1] |
-| **Spigot API** | Compatibility layer[cite: 1] |
+| **Java 21** | Core language |
+| **Gradle** | Build system |
+| **Paper API** | Primary platform |
+| **Spigot API** | Compatibility layer |
 
 ---
-
-<div align="center">
 
 ## Development Goals
 
-</div>
-
-BackAsk has been developed with emphasis on:[cite: 1]
-- Clean architecture & modular systems[cite: 1]
-- Maintainable source code & modern Java practices[cite: 1]
-- Production stability & efficient inventory processing[cite: 1]
-- Full compatibility with current Minecraft releases[cite: 1]
-- Intuitive player experience[cite: 1]
+BackAsk has been developed with emphasis on:
+- Clean architecture & modular systems
+- Maintainable source code & modern Java practices
+- Production stability & efficient inventory processing
+- Full compatibility with current Minecraft releases
+- Intuitive player experience
 
 ---
 
-<a id="features"></a>
-# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/labs/labs-original.svg" width="24" height="24"/> Features
+<div id="features"></div>
 
-BackAsk provides a complete inventory ecosystem instead of a simple backpack. Every module has been designed to work independently while integrating seamlessly with the rest of the plugin.[cite: 1]
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="24" height="24"/> Features
+
+BackAsk provides a complete inventory ecosystem instead of a simple backpack. Every module has been designed to work independently while integrating seamlessly with the rest of the plugin.
 
 ### Backpack System
-Players receive a virtual backpack that can be opened anywhere, allowing safe storage without requiring physical containers. Storage is persistent and automatically synchronized.[cite: 1]
-* Virtual backpack inventory with configurable sizes.[cite: 1]
-* Persistent player storage with automatic save system.[cite: 1]
-* Smart slot handling and lightweight implementation.[cite: 1]
+Players receive a virtual backpack that can be opened anywhere, allowing safe storage without requiring physical containers. Storage is persistent and automatically synchronized.
+* Virtual backpack inventory with configurable sizes.
+* Persistent player storage with automatic save system.
+* Smart slot handling and lightweight implementation.
 
 ### Smart Search
-Quickly locate any item inside the backpack. The search engine filters inventory contents in real time without requiring additional menus.[cite: 1]
-* Supports filtering by Material Name, Custom Display Name, Partial Text, and is Case Insensitive.[cite: 1]
+Quickly locate any item inside the backpack. The search engine filters inventory contents in real time without requiring additional menus.
+* Supports filtering by Material Name, Custom Display Name, Partial Text, and is Case Insensitive.
 
 ### Favorites
-Mark important items to avoid losing track of them. Favorite items remain highlighted regardless of inventory organization and are protected during stack sorting.[cite: 1]
+Mark important items to avoid losing track of them. Favorite items remain highlighted regardless of inventory organization and are protected during stack sorting.
 
 ### Trash System
-Safely dispose of unwanted items. Instead of deleting items immediately, BackAsk stores them temporarily, allowing recovery before permanent removal. Includes history tracking and timestamp management.[cite: 1]
+Safely dispose of unwanted items. Instead of deleting items immediately, BackAsk stores them temporarily, allowing recovery before permanent removal. Includes history tracking and timestamp management.
 
 ### Virtual Workstations
-Access crafting utilities directly from the backpack interface or via commands. Supported virtual stations include: Crafting Table, Stonecutter, Smithing Table, Loom, Cartography Table, and Grindstone.[cite: 1]
+Access crafting utilities directly from the backpack interface or via commands. Supported virtual stations include: Crafting Table, Stonecutter, Smithing Table, Loom, Cartography Table, and Grindstone.
 
 ### Stack Management
-Automatically organize inventory contents. Merge stacks, sort materials, compact inventory, and fill empty spaces while preserving your favorite items.[cite: 1]
+Automatically organize inventory contents. Merge stacks, sort materials, compact inventory, and fill empty spaces while preserving your favorite items.
 
 ### Modern GUI
-Every interface features a modern layout, responsive buttons, decorative borders, configurable titles, placeholder support, animations, and clean navigation.[cite: 1]
+Every interface features a modern layout, responsive buttons, decorative borders, configurable titles, placeholder support, animations, and clean navigation.
 
 ---
 
-<a id="compatibility"></a>
-# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ie10/ie10-original.svg" width="24" height="24"/> Compatibility
+<div id="compatibility"></div>
 
-BackAsk officially supports the latest Paper and Spigot releases.[cite: 1]
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-original.svg" width="24" height="24"/> Compatibility
+
+BackAsk officially supports the latest Paper and Spigot releases.
 
 | Software | Support |
 |----------|:-------:|
-| Paper | ✔[cite: 1] |
-| Spigot | ✔[cite: 1] |
+| Paper | ✔ |
+| Spigot | ✔ |
 
 ### Minecraft Versions
-Supports versions **1.21 up to 26.2** (including 1.21.x, 1.22, 1.23, 1.24, 1.25, 26.1, and 26.2).[cite: 1]
+Supports versions **1.21 up to 26.2** (including 1.21.x, 1.22, 1.23, 1.24, 1.25, 26.1, and 26.2).
 
 ### Requirements & Dependencies
-* **Java:** 21 or newer[cite: 1]
-* **RAM:** 512 MB minimum (2 GB+ recommended)[cite: 1]
-* **Server Software:** Paper or Spigot[cite: 1]
-* **External Dependencies:** Designed to run with **zero** external runtime dependencies. Support for **PlaceholderAPI** is optional and automatically enabled if present.[cite: 1]
+* **Java:** 21 or newer
+* **RAM:** 512 MB minimum (2 GB+ recommended)
+* **Server Software:** Paper or Spigot
+* **External Dependencies:** Designed to run with **zero** external runtime dependencies. Support for **PlaceholderAPI** is optional and automatically enabled if present.
 
 ---
 
-<a id="installation"></a>
+<div id="installation"></div>
+
 # <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/putty/putty-original.svg" width="24" height="24"/> Installation
 
 ### 1. Download
-Download the latest release from the Releases page.[cite: 1]
+Download the latest release from the Releases page.
 ```text
 BackAsk-x.x.x.jar
